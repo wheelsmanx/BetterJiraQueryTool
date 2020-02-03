@@ -1,3 +1,907 @@
-root - WARNING - Bug https://jira.atlassian.com/browse/JRA-59676 trying again...
-root - WARNING - Bug https://jira.atlassian.com/browse/JRA-59676 trying again...
-root - WARNING - Bug https://jira.atlassian.com/browse/JRA-59676 trying again...
+root - WARNING - February 03, 2020 14:39:08 Filter: TEST
+root - WARNING - February 03, 2020 14:39:08 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:39:08 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:08 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:08 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:39:08 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:08 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:08 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:08 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:39:08 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:08 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:08 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:08 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:39:08 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:08 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:08 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:08 ERROR: must be str, not EOFError
+root - WARNING - February 03, 2020 14:39:08 Traceback (most recent call last):
+  File "C:/Users/wheelsmanx/PycharmProjects/jiraQueryTool/jiraQueryPythonTool.py", line 155, in <module>
+    fileFilters = pickle.loads(codecs.decode(getPreviousTickets().encode(), "base64"))
+EOFError: Ran out of input
+
+root - WARNING - February 03, 2020 14:39:08 File is likely to be empty on first run. This is not a cause for alarm.
+root - WARNING - February 03, 2020 14:39:08 Query cycle count is:  1
+root - WARNING - February 03, 2020 14:39:08 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:39:13 Filter: TEST
+root - WARNING - February 03, 2020 14:39:13 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:39:13 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:13 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:13 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:39:13 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:13 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:13 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:13 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:39:13 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:13 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:13 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:13 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:39:13 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:13 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:13 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:13 Query cycle count is:  2
+root - WARNING - February 03, 2020 14:39:13 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:39:18 Filter: TEST
+root - WARNING - February 03, 2020 14:39:18 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:39:18 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:18 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:18 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:39:18 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:18 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:18 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:18 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:39:18 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:18 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:18 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:18 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:39:18 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:18 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:18 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:18 Query cycle count is:  3
+root - WARNING - February 03, 2020 14:39:18 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:39:23 Filter: TEST
+root - WARNING - February 03, 2020 14:39:23 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:39:23 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:23 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:23 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:39:23 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:23 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:23 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:23 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:39:23 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:23 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:23 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:23 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:39:23 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:23 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:23 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:23 Query cycle count is:  4
+root - WARNING - February 03, 2020 14:39:23 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:39:28 Filter: TEST
+root - WARNING - February 03, 2020 14:39:28 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:39:28 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:28 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:28 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:39:28 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:28 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:28 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:28 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:39:28 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:28 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:28 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:28 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:39:28 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:28 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:28 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:28 Query cycle count is:  5
+root - WARNING - February 03, 2020 14:39:28 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:39:33 Filter: TEST
+root - WARNING - February 03, 2020 14:39:33 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:39:33 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:33 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:33 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:39:33 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:33 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:33 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:33 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:39:33 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:33 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:33 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:33 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:39:33 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:33 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:33 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:33 Query cycle count is:  6
+root - WARNING - February 03, 2020 14:39:33 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:39:38 Filter: TEST
+root - WARNING - February 03, 2020 14:39:38 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:39:38 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:38 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:38 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:39:38 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:38 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:38 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:38 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:39:38 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:38 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:38 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:38 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:39:38 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:38 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:38 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:38 Query cycle count is:  7
+root - WARNING - February 03, 2020 14:39:38 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:39:43 Filter: TEST
+root - WARNING - February 03, 2020 14:39:43 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:39:43 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:43 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:43 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:39:43 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:43 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:43 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:43 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:39:43 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:43 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:43 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:43 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:39:43 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:43 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:43 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:43 Query cycle count is:  8
+root - WARNING - February 03, 2020 14:39:43 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:39:48 Filter: TEST
+root - WARNING - February 03, 2020 14:39:48 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:39:48 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:48 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:48 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:39:48 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:48 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:48 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:48 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:39:48 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:48 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:48 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:48 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:39:48 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:48 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:48 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:48 Query cycle count is:  9
+root - WARNING - February 03, 2020 14:39:48 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:39:53 Filter: TEST
+root - WARNING - February 03, 2020 14:39:53 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:39:53 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:53 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:53 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:39:53 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:53 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:53 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:53 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:39:53 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:53 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:53 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:53 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:39:53 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:53 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:53 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:53 Query cycle count is:  10
+root - WARNING - February 03, 2020 14:39:53 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:39:58 Filter: TEST
+root - WARNING - February 03, 2020 14:39:58 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:39:58 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:58 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:58 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:39:58 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:58 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:58 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:58 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:39:58 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:58 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:58 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:58 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:39:58 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:39:58 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:39:58 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:39:58 Query cycle count is:  11
+root - WARNING - February 03, 2020 14:39:58 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:40:03 Filter: TEST
+root - WARNING - February 03, 2020 14:40:03 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:40:03 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:03 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:03 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:40:03 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:03 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:03 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:03 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:40:03 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:03 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:03 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:03 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:40:03 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:03 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:03 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:03 Query cycle count is:  12
+root - WARNING - February 03, 2020 14:40:03 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:40:08 Filter: TEST
+root - WARNING - February 03, 2020 14:40:08 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:40:08 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:08 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:08 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:40:08 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:08 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:08 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:08 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:40:08 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:08 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:08 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:08 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:40:08 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:08 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:08 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:08 Query cycle count is:  13
+root - WARNING - February 03, 2020 14:40:08 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:40:13 Filter: TEST
+root - WARNING - February 03, 2020 14:40:13 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:40:13 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:13 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:13 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:40:13 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:13 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:13 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:13 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:40:13 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:13 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:13 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:13 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:40:13 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:13 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:13 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:13 Query cycle count is:  14
+root - WARNING - February 03, 2020 14:40:13 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:40:18 Filter: TEST
+root - WARNING - February 03, 2020 14:40:18 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:40:18 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:18 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:18 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:40:18 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:18 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:18 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:18 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:40:18 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:18 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:18 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:18 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:40:18 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:18 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:18 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:18 Query cycle count is:  15
+root - WARNING - February 03, 2020 14:40:18 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:40:23 Filter: TEST
+root - WARNING - February 03, 2020 14:40:23 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:40:23 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:23 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:23 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:40:23 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:23 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:23 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:23 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:40:23 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:23 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:23 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:23 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:40:23 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:23 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:23 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:23 Query cycle count is:  16
+root - WARNING - February 03, 2020 14:40:23 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:40:28 Filter: TEST
+root - WARNING - February 03, 2020 14:40:28 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:40:28 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:28 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:28 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:40:28 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:28 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:28 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:28 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:40:28 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:28 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:28 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:28 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:40:28 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:28 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:28 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:28 Query cycle count is:  17
+root - WARNING - February 03, 2020 14:40:28 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:40:33 Filter: TEST
+root - WARNING - February 03, 2020 14:40:33 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:40:33 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:33 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:33 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:40:33 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:33 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:33 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:33 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:40:33 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:33 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:33 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:33 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:40:33 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:33 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:33 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:33 Query cycle count is:  18
+root - WARNING - February 03, 2020 14:40:33 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:40:38 Filter: TEST
+root - WARNING - February 03, 2020 14:40:38 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:40:38 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:38 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:38 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:40:38 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:38 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:38 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:38 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:40:38 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:38 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:38 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:38 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:40:38 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:38 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:38 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:38 Query cycle count is:  19
+root - WARNING - February 03, 2020 14:40:38 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:40:43 Filter: TEST
+root - WARNING - February 03, 2020 14:40:43 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:40:43 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:43 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:43 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:40:43 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:43 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:43 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:43 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:40:43 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:43 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:43 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:43 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:40:43 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:43 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:43 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:44 Query cycle count is:  20
+root - WARNING - February 03, 2020 14:40:44 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:40:49 Filter: TEST
+root - WARNING - February 03, 2020 14:40:49 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:40:49 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:49 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:49 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:40:49 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:49 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:49 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:49 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:40:49 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:49 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:49 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:49 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:40:49 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:49 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:49 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:49 Query cycle count is:  21
+root - WARNING - February 03, 2020 14:40:49 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:40:54 Filter: TEST
+root - WARNING - February 03, 2020 14:40:54 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:40:54 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:54 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:54 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:40:54 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:54 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:54 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:54 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:40:54 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:54 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:54 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:54 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:40:54 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:54 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:54 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:54 Query cycle count is:  22
+root - WARNING - February 03, 2020 14:40:54 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:40:59 Filter: TEST
+root - WARNING - February 03, 2020 14:40:59 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:40:59 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:59 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:59 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:40:59 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:59 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:59 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:59 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:40:59 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:59 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:59 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:59 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:40:59 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:40:59 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:40:59 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:40:59 Query cycle count is:  23
+root - WARNING - February 03, 2020 14:40:59 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:41:04 Filter: TEST
+root - WARNING - February 03, 2020 14:41:04 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:41:04 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:04 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:04 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:41:04 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:04 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:04 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:04 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:41:04 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:04 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:04 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:04 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:41:04 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:04 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:04 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:04 Query cycle count is:  24
+root - WARNING - February 03, 2020 14:41:04 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:41:09 Filter: TEST
+root - WARNING - February 03, 2020 14:41:09 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:41:09 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:09 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:09 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:41:09 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:09 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:09 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:09 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:41:09 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:09 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:09 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:09 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:41:09 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:09 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:09 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:09 Query cycle count is:  25
+root - WARNING - February 03, 2020 14:41:09 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:41:14 Filter: TEST
+root - WARNING - February 03, 2020 14:41:14 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:41:14 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:14 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:14 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:41:14 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:14 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:14 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:14 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:41:14 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:14 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:14 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:14 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:41:14 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:14 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:14 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:14 Query cycle count is:  26
+root - WARNING - February 03, 2020 14:41:14 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:41:19 Filter: TEST
+root - WARNING - February 03, 2020 14:41:19 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:41:19 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:19 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:19 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:41:19 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:19 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:19 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:19 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:41:19 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:19 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:19 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:19 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:41:19 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:19 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:19 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:19 Query cycle count is:  27
+root - WARNING - February 03, 2020 14:41:19 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:41:24 Filter: TEST
+root - WARNING - February 03, 2020 14:41:24 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:41:24 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:24 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:24 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:41:24 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:24 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:24 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:24 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:41:24 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:24 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:24 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:24 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:41:24 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:24 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:24 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:24 Query cycle count is:  28
+root - WARNING - February 03, 2020 14:41:24 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:41:29 Filter: TEST
+root - WARNING - February 03, 2020 14:41:29 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:41:29 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:29 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:29 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:41:29 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:29 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:29 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:29 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:41:29 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:29 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:29 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:29 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:41:29 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:29 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:29 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:29 Query cycle count is:  29
+root - WARNING - February 03, 2020 14:41:29 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:41:34 Filter: TEST
+root - WARNING - February 03, 2020 14:41:34 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:41:34 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:34 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:34 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:41:34 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:34 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:34 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:34 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:41:34 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:34 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:34 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:34 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:41:34 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:34 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:34 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:34 Query cycle count is:  30
+root - WARNING - February 03, 2020 14:41:34 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:41:39 Filter: TEST
+root - WARNING - February 03, 2020 14:41:39 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:41:39 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:39 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:39 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:41:39 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:39 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:39 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:39 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:41:39 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:39 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:39 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:39 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:41:39 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:39 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:39 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:39 Query cycle count is:  31
+root - WARNING - February 03, 2020 14:41:39 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:41:44 Filter: TEST
+root - WARNING - February 03, 2020 14:41:44 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:41:44 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:44 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:44 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:41:44 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:44 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:44 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:44 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:41:44 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:44 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:44 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:44 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:41:44 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:44 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:44 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:44 Query cycle count is:  32
+root - WARNING - February 03, 2020 14:41:44 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:41:49 Filter: TEST
+root - WARNING - February 03, 2020 14:41:49 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:41:49 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:49 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:49 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:41:49 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:49 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:49 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:49 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:41:49 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:49 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:49 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:49 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:41:49 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:49 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:49 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:49 Query cycle count is:  33
+root - WARNING - February 03, 2020 14:41:49 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:41:54 Filter: TEST
+root - WARNING - February 03, 2020 14:41:54 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:41:54 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:54 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:54 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:41:54 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:54 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:54 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:54 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:41:54 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:54 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:54 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:54 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:41:54 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:54 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:54 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:54 Query cycle count is:  34
+root - WARNING - February 03, 2020 14:41:54 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:41:59 Filter: TEST
+root - WARNING - February 03, 2020 14:41:59 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:41:59 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:59 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:59 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:41:59 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:59 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:59 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:59 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:41:59 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:59 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:59 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:59 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:41:59 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:41:59 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:41:59 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:41:59 Query cycle count is:  35
+root - WARNING - February 03, 2020 14:41:59 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:42:04 Filter: TEST
+root - WARNING - February 03, 2020 14:42:04 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:42:04 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:04 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:04 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:42:04 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:04 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:04 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:04 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:42:04 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:04 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:04 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:04 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:42:04 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:04 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:04 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:04 Query cycle count is:  36
+root - WARNING - February 03, 2020 14:42:04 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:42:09 Filter: TEST
+root - WARNING - February 03, 2020 14:42:09 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:42:09 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:09 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:09 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:42:09 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:09 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:09 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:09 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:42:09 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:09 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:09 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:09 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:42:09 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:09 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:09 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:09 Query cycle count is:  37
+root - WARNING - February 03, 2020 14:42:09 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:42:14 Filter: TEST
+root - WARNING - February 03, 2020 14:42:14 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:42:14 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:14 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:14 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:42:14 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:14 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:14 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:14 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:42:14 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:14 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:14 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:14 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:42:14 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:14 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:14 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:14 Query cycle count is:  38
+root - WARNING - February 03, 2020 14:42:14 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:42:19 Filter: TEST
+root - WARNING - February 03, 2020 14:42:19 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:42:19 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:19 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:19 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:42:19 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:19 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:19 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:19 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:42:19 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:19 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:19 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:19 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:42:19 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:19 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:19 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:19 Query cycle count is:  39
+root - WARNING - February 03, 2020 14:42:19 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:42:24 Filter: TEST
+root - WARNING - February 03, 2020 14:42:24 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:42:24 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:24 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:24 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:42:24 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:24 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:24 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:24 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:42:24 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:24 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:24 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:24 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:42:24 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:24 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:24 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:24 Query cycle count is:  40
+root - WARNING - February 03, 2020 14:42:24 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:42:29 Filter: TEST
+root - WARNING - February 03, 2020 14:42:29 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:42:29 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:29 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:29 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:42:29 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:29 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:29 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:29 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:42:29 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:29 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:29 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:29 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:42:29 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:29 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:29 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:29 Query cycle count is:  41
+root - WARNING - February 03, 2020 14:42:29 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:42:34 Filter: TEST
+root - WARNING - February 03, 2020 14:42:34 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:42:34 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:34 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:34 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:42:34 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:34 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:34 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:34 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:42:34 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:34 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:34 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:34 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:42:34 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:34 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:34 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:34 Query cycle count is:  42
+root - WARNING - February 03, 2020 14:42:34 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:42:39 Filter: TEST
+root - WARNING - February 03, 2020 14:42:39 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:42:39 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:39 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:39 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:42:39 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:39 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:39 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:39 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:42:39 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:39 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:39 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:39 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:42:39 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:39 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:39 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:39 Query cycle count is:  43
+root - WARNING - February 03, 2020 14:42:39 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:42:44 Filter: TEST
+root - WARNING - February 03, 2020 14:42:44 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:42:44 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:44 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:44 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:42:44 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:44 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:44 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:44 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:42:44 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:44 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:44 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:44 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:42:44 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:44 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:44 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:44 Query cycle count is:  44
+root - WARNING - February 03, 2020 14:42:44 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:42:49 Filter: TEST
+root - WARNING - February 03, 2020 14:42:49 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:42:49 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:49 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:49 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:42:49 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:49 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:49 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:49 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:42:49 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:49 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:49 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:49 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:42:49 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:49 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:49 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:49 Query cycle count is:  45
+root - WARNING - February 03, 2020 14:42:49 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:42:54 Filter: TEST
+root - WARNING - February 03, 2020 14:42:54 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:42:54 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:54 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:54 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:42:54 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:54 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:54 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:54 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:42:54 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:54 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:54 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:54 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:42:54 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:54 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:54 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:54 Query cycle count is:  46
+root - WARNING - February 03, 2020 14:42:54 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:42:59 Filter: TEST
+root - WARNING - February 03, 2020 14:42:59 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:42:59 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:59 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:59 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:42:59 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:59 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:59 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:59 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:42:59 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:59 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:59 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:59 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:42:59 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:42:59 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:42:59 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:42:59 Query cycle count is:  47
+root - WARNING - February 03, 2020 14:42:59 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:43:04 Filter: TEST
+root - WARNING - February 03, 2020 14:43:04 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:43:04 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:43:04 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:43:04 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:43:04 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:43:04 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:43:04 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:43:04 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:43:04 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:43:04 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:43:04 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:43:04 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:43:04 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:43:04 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:43:04 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:43:04 Query cycle count is:  48
+root - WARNING - February 03, 2020 14:43:04 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:43:09 Filter: TEST
+root - WARNING - February 03, 2020 14:43:09 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:43:09 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:43:09 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:43:09 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:43:09 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:43:09 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:43:09 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:43:09 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:43:09 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:43:09 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:43:09 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:43:09 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:43:09 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:43:09 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:43:09 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:43:09 Query cycle count is:  49
+root - WARNING - February 03, 2020 14:43:09 Waiting..... 30 Seconds
+root - WARNING - February 03, 2020 14:43:14 Filter: TEST
+root - WARNING - February 03, 2020 14:43:14 Query String : assignee = "Austin Doll" AND status != Closed
+root - WARNING - February 03, 2020 14:43:14 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:43:14 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:43:14 Filter: UFO TOP
+root - WARNING - February 03, 2020 14:43:14 Query String : filter = RTC_DTONE OR filter = Premium_OneHR_Remaining OR filter = "DTAM - NASA Support - Unassigned SEV1" ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:43:14 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:43:14 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:43:14 Filter: UFO BOTTOM
+root - WARNING - February 03, 2020 14:43:14 Query String : filter = Open_Unassigned_Expired OR filter = Open_Unassigned_Expiring_2HR OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:43:14 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:43:14 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:43:14 Filter: UFO BOTTOM 3PM
+root - WARNING - February 03, 2020 14:43:14 Query String : filter = Open_Unassigned_Expired OR filter = NASA_Open_Unassigned_Expiring_Before8PM OR filter = Premium_Expiring_EndOfDay OR filter = handoverNASA_FollowTheSun ORDER BY cf[15409] ASC
+root - WARNING - February 03, 2020 14:43:14 Results : test this thing here for us
+root - WARNING - February 03, 2020 14:43:14 ########################################### NEW QUERY
+root - WARNING - February 03, 2020 14:43:14 Query cycle count is:  50
+root - WARNING - February 03, 2020 14:43:14 Waiting..... 30 Seconds

@@ -1,17 +1,18 @@
 
 # By Justin Hagerty
-# 2/3/2020
+# Start: 2/3/2020
+
 
 from jira import JIRA
 import requests
-import json
 import time
 import configparser
 import os
-import sys
 import logging
 import traceback
 from datetime import datetime
+import pickle
+import codecs
 
 
 class query:
@@ -25,9 +26,9 @@ class query:
     def getString(self):
         return self.queryString
     def setResult(self, new_result):
-        self.result = new_result
-
-
+        self.queryResult = new_result
+    def __repr__(self):
+        return str(self.queryResult)
 
 ### Utility functons:
 # - log date time stamp function
@@ -66,26 +67,23 @@ except Exception as error:
 
 try:
     # - ticket storage settings
-    ticketStorageFile = "./tickets.txt"
+    ticketStorageFile = os.path.dirname(os.path.realpath(__file__)) + "\\" + configurations["ticketStorage"]["ticketstoragefile"]
     # - log settings
     logFile = configurations["log"]["logfile"]
     # - filter settings
-
+    # NOTES:
     # Jira filters data structure:
-
     # filters[<name of filter>]["string"] = <filter string>
     # filters[<name of filter>]["result"] = <result of JQL search>
-
-
     filters = dict()
     ### TEST:
-    filters["TEST"] = query(configurations["filters"]["testfilter"], dict())
+    filters["TEST"] = query(configurations["filters"]["testfilter"], "")
     ### UFO TOP:
-    #filters["UFO TOP"]["string"] = configurations["filters"]["filter01"]
+    filters["UFO TOP"] = query(configurations["filters"]["filter01"], "")
     ### UFO BOTTOM:
-    #filters["UFO BOTTOM"]["string"] = configurations["filters"]["filter02"]
+    filters["UFO BOTTOM"] = query(configurations["filters"]["filter02"], "")
     ### UFO BOTTOM After 3PM:
-    #filters["UFO BOTTOM 3PM"]["string"] = configurations["filters"]["filter03"]
+    filters["UFO BOTTOM 3PM"] = query(configurations["filters"]["filter03"], "")
     # - jira settings
     jiraUser = configurations["jira"]["jirauser"]
     jiraPass = configurations["jira"]["jirapass"]
@@ -104,10 +102,7 @@ except Exception as error:
 logging.basicConfig(filename=logFile, filemode='w', format='%(name)s - %(levelname)s - %(message)s')
 
 # - Jira setup:
-print(str(jiraAPIURL))
-print("TEST")
-
-jira = JIRA(options={'server' : str(jiraAPIURL)} ,basic_auth=(jiraUser, jiraPass))
+#jira = JIRA(options={'server' : str(jiraAPIURL)} ,basic_auth=(jiraUser, jiraPass))
 
 
 ### Jira handling tools:
@@ -115,14 +110,14 @@ jira = JIRA(options={'server' : str(jiraAPIURL)} ,basic_auth=(jiraUser, jiraPass
 def writeToTicketFile(ticketsDict):
     f = open(ticketStorageFile, "r+")
     f.truncate()
-    f.write(json.dumps(ticketsDict))
+    f.write(str(ticketsDict))
     f.close()
 
 # - get previous tickets from file
 def getPreviousTickets():
     try:
         f = open(ticketStorageFile, "r+")
-        jiraTicketsFromFile = json.loads(f.read())
+        jiraTicketsFromFile = f.read()
     except Exception as error:
         log_date(error)
         jiraTicketsFromFile = None
@@ -136,55 +131,56 @@ def jiraTicketsFromJQL(filter):
         filterSearchExec[str(issue.key)] = str(issue.fields.summary)
     return filterSearchExec
 
+def dictionaryCheck():
+    return "test this thing here for us"
+
+
+### UFO handling:
+def setUFOBOTTOM(color):
+    return True
+def setUFOTOP(color):
+    return True
+
+### Slack bot handling:
+def sendSlackBot():
+    return True
+
 ### While Cycle Counter:
 cycleCounter = 0
 
-### run the main loop for the program:
-
-filters["TEST"].setResult(jiraTicketsFromJQL(filters["TEST"].getString()))
-
-print(filters["TEST"].getResult())
-
-"""
 while(True):
     # add to the cycle counter
     cycleCounter = cycleCounter + 1
+    for keys, values in filters.items():
+        log_date(f"Filter: {keys}")
+        log_date(f"Query String : {values.getString()}")
+        filters[keys].setResult(dictionaryCheck())
+        log_date(f"Results : {values.getResult()}")
+        log_date("########################################### NEW QUERY")
 
-    # run through the JQL filters and identify them
-    for keys, value in filters.items():
-        filters[keys]["result"] = jiraTicketsFromJQL(filters[keys]["string"])
-        log_date(filters[keys]["string"])
-        log_date(filters[keys]["result"])
+    try:
+        # Try to load in the serialized encoded object from the file:
+        fileFilters = pickle.loads(codecs.decode(getPreviousTickets().encode(), "base64"))
+    except Exception as error:
+        log_date(error)
+        log_date(traceback.format_exc())
+        log_date("File is likely to be empty on first run. This is not a cause for alarm.")
+        fileFilters = None
 
-    jiraTicketsFromFile = getPreviousTickets()
-    for keys, value in jiraTicketsFromFile.items():
-        log_date("Processing: " + keys)
-        for ticketNum, ticket in jiraTicketsFromFile[keys]["result"]:
-            del filters[keys]["result"][ticketNum]
-            log_date("Deleting :" + keys + ", " + ticketNum)
-"""
+    if(str(fileFilters) == str(filters)):
+        print("True")
+        # TODO
+        # dont do anything because they are the same
+    else:
+        print("False")
+        # TODO
+        # do something because they are in fact different
 
+    # write the final decoded object to the file for us in next cycle:
+    writeToTicketFile(codecs.encode(pickle.dumps(filters), "base64").decode())
+    # print cycle number
+    log_date(f"Query cycle count is:  {cycleCounter}")
+    # sleep function to add waiting to it
+    log_date("Waiting..... 30 Seconds")
+    time.sleep(5)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### TODO:
-# rotate logs after 1 day always keeping a buffer of 1 day.
-# query jira
-# change it after 3pm
-
-# add that info to the UFO
-# save to ticket tracking file
-# query
