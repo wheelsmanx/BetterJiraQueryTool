@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af5fb4b3-ab9b-445c-86b9-971585c68ea7" name="Default Changelist" comment="" />
+    <list default="true" id="af5fb4b3-ab9b-445c-86b9-971585c68ea7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jiraQueryTool.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jiraQueryTool.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiraQueryPythonTool.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiraQueryPythonTool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tickets.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +22,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XIoY6rlNMRUoz8hDxf363cwIsN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,6 +33,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -77,33 +89,47 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="719" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580744396608" />
+    <state x="498" y="29" key="#jiraQueryPythonTool" timestamp="1580857794625">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="29" key="#jiraQueryPythonTool/0.0.1536.824@0.0.1536.824" timestamp="1580857794625" />
     <state x="718" y="391" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1580743274821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="718" y="391" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580743274821" />
-    <state width="1899" height="209" key="GridCell.Tab.0.bottom" timestamp="1580758748552">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="640" y="225" key="FileChooserDialogImpl" timestamp="1580858001596">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="640" y="225" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580858001596" />
+    <state width="1515" height="211" key="GridCell.Tab.0.bottom" timestamp="1580859031178">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580859031178" />
     <state width="1899" height="209" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580758748552" />
-    <state width="1899" height="209" key="GridCell.Tab.0.center" timestamp="1580758748552">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1515" height="211" key="GridCell.Tab.0.center" timestamp="1580859031177">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1515" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580859031177" />
     <state width="1899" height="209" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580758748552" />
-    <state width="1899" height="209" key="GridCell.Tab.0.left" timestamp="1580758748552">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1515" height="211" key="GridCell.Tab.0.left" timestamp="1580859031177">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1515" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580859031177" />
     <state width="1899" height="209" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580758748552" />
-    <state width="1899" height="209" key="GridCell.Tab.0.right" timestamp="1580758748552">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1515" height="211" key="GridCell.Tab.0.right" timestamp="1580859031177">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1515" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580859031177" />
     <state width="1899" height="209" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580758748552" />
-    <state x="461" y="163" key="SettingsEditor" timestamp="1580751659291">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="369" y="113" key="SettingsEditor" timestamp="1580858014897">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="369" y="113" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580858014897" />
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580751659291" />
-    <state x="661" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1580743153359">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="529" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1580857458659">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="529" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580857458659" />
     <state x="661" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580743153359" />
     <state x="1920" y="0" width="1575" height="1026" maximized="true" key="dock-window-1" timestamp="1580753801017">
       <screen x="1920" y="0" width="1920" height="1040" />

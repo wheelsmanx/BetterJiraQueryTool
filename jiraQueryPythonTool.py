@@ -3,8 +3,8 @@
 # Start: 2/3/2020
 
 
-from jira import JIRA
-import requests
+#from jira import JIRA
+#import requests
 import time
 import configparser
 import os
@@ -50,6 +50,12 @@ def debugVar(inputVariable):
     print("################### DEBUG   END ###################")
 
 ### Settings:
+# - debug flags and configurations
+# To turn on the ufo you need to set this to true - to turn off update of the ufo you need to set it to false.
+ufo = True
+hour = 13
+
+
 # - config settings
 # Note: if this is not set it will not work unless you edit the below settings where configurations is
 configFile = "./config.ini"
@@ -172,14 +178,33 @@ while(True):
 
     if(str(fileFilters) == str(filters)):
         print("True")
+        log_date("There were no changes and nothing will happen aside from querying jira.")
         # TODO
         # dont do anything because they are the same
     else:
         print("False")
         # TODO
         # do something because they are in fact different
-        for x in
+        if(ufo == True):
+            if (str(fileFilters["UFO TOP"]) == str(filters["UFO TOP"])):
+                log_date("The ufo top filters have not changed and I wont do anything.")
+            else:
+                log_date("The ufo top filters have changed and we will set the top ring to a color based on this filter having anything in it.")
 
+            if(hour < 15 or hour < "15"):
+                #if the hour is less than 15 which is 3pm military time then do this filter comparison.
+                if (str(fileFilters["UFO BOTTOM"]) == str(filters["UFO BOTTOM"])):
+                    log_date("The ufo bottom filters have not changed and I wont do anything.")
+                else:
+                    log_date("The ufo bottom filters have changed and we will set the bottom ring to a color based on this filter having anything in it.")
+            else:
+                #if the hour is greater than 15 which is 3pm military time then do this filter instead of the first comparison filter.
+                if(str(filters["UFO BOTTOM 3PM"]) == str(fileFilters["UFO BOTTOM 3PM"])):
+                    log_date("The ufo bottom filters have not changed and I wont do anything.")
+                else:
+                    log_date("The ufo bottom 3pm filters have changed and I will set the bottom color base on this filter having anything in it.")
+        else:
+            log_date("The ufo section is turned off and we will not update the ufo's.")
     # write the final decoded object to the file for us in next cycle:
     writeToTicketFile(codecs.encode(pickle.dumps(filters), "base64").decode())
     # print cycle number
