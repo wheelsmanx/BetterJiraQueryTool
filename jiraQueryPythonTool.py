@@ -137,12 +137,15 @@ def dictionaryCheck():
 
 ### UFO handling:
 def setUFOBOTTOM(color):
+    log_date(f"BOTTOM OF UFO SET TO : {color}")
     return True
 def setUFOTOP(color):
+    log_date(f"TOP OF UFO SET TO : {color}")
     return True
 
 ### Slack bot handling:
 def sendSlackBot():
+    log_date(f"Sending information to slack bot. Color is : {color}")
     return True
 
 ### While Cycle Counter:
@@ -175,6 +178,7 @@ while(True):
         print("False")
         # TODO
         # do something because they are in fact different
+        for x in
 
     # write the final decoded object to the file for us in next cycle:
     writeToTicketFile(codecs.encode(pickle.dumps(filters), "base64").decode())
