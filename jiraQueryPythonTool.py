@@ -224,7 +224,8 @@ while(False):
         log_date(traceback.format_exc())
         log_date("File is likely to be empty on first run. This is not a cause for alarm.")
         fileFilters = None
-
+    # TODO
+    # set the variable "hour" to always get the current hour for the below logic to ensure that we switch at a certain time
     if(str(fileFilters) == str(filters)):
         print("True")
         log_date("There were no changes and nothing will happen aside from querying jira.")
