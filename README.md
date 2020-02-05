@@ -8,3 +8,6 @@ Jira Query Tool for work that will support multiple API end points and allow for
 
 ### TODO: 
  - if you are working on this check the todo's in the code
+
+### As always you can find me here: 
+ - https://hagerty.dev/discord 
