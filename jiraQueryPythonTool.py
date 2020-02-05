@@ -1,10 +1,12 @@
 
 # By Justin Hagerty
 # Start: 2/3/2020
+# JIRA documentation https://pypi.org/project/jira/
 
 
-#from jira import JIRA
-#import requests
+# these are disabled completely right now to ensure that if we accidentally reach out to jira it does not cause an issue
+# from jira import JIRA
+# import requests
 import time
 import configparser
 import os
@@ -30,6 +32,12 @@ class query:
     def __repr__(self):
         return str(self.queryResult)
 
+# Some constants:
+# - UFO
+ufo_all_green = "/api?top_init&top=0|15|00ff00&top_morph=1000|5&bottom_init&bottom=0|15|00ff00&bottom_morph=1000|5"
+ufo_init = "/api?top_init&bottom_init"
+
+
 ### Utility functons:
 # - log date time stamp function
 def log_date(log_text):
@@ -53,7 +61,8 @@ def debugVar(inputVariable):
 # - debug flags and configurations
 # To turn on the ufo you need to set this to true - to turn off update of the ufo you need to set it to false.
 ufo = True
-hour = 13
+# if debug hour is anything but false or of type None it will set a fake time
+debug_hour = 13
 
 
 # - config settings
@@ -90,6 +99,16 @@ try:
     filters["UFO BOTTOM"] = query(configurations["filters"]["filter02"], "")
     ### UFO BOTTOM After 3PM:
     filters["UFO BOTTOM 3PM"] = query(configurations["filters"]["filter03"], "")
+
+    ### UFO COLOR CONFIG:
+    ### should be able to select any color set in the config by name
+    # Example: configurations["color"]["upperred"] would be 37609
+    # remember config._sections returns all lower case so the colors must be referenced as all lower case chars
+    colors = configurations["color"]
+    ### UFO IP CONFIG:
+
+    all_ufo = configurations["ufo"]["ufo_url"]
+
     # - jira settings
     jiraUser = configurations["jira"]["jirauser"]
     jiraPass = configurations["jira"]["jirapass"]
@@ -142,28 +161,58 @@ def dictionaryCheck():
 
 
 ### UFO handling:
+#Note: these will be used in conjunction with the dict colors[] which is set up at the top
+
 def setUFOBOTTOM(color):
     log_date(f"BOTTOM OF UFO SET TO : {color}")
+    send_UFO_Query("/api?bottom_init=1&bottom=15|15|" + code);
     return True
+
 def setUFOTOP(color):
     log_date(f"TOP OF UFO SET TO : {color}")
+    send_UFO_Query("/api?top_init=1&top=15|15|" + code)
     return True
+
+def send_UFO_Query(query):
+    log_date("Sending Query to all listed UFOs.")
+    for x in all_ufo.split(','):
+        log_date(f"Sending query of {query} to ufo:  https://{x} .... ")
+        query_url = "http://" + str(x) + str(query)
+        #r = requests.get(url=query_url)
+    return True
+
+
 
 ### Slack bot handling:
 def sendSlackBot():
+    # TODO
+    # add the script from "jiraQueryTool" that sends this to the RTC bot. https://github.com/wheelsmanx/jiraQueryAPITool/blob/master/jiraQueryAPITool.py
     log_date(f"Sending information to slack bot. Color is : {color}")
     return True
 
+
 ### While Cycle Counter:
 cycleCounter = 0
+### need to add "blue circle" request to init/set up
+# TODO
+# 1.) check if this (below) works and or make it work
+#send_UFO_Query(init)
 
-while(True):
-    # add to the cycle counter
+while(False):
+    # add to the cycle counter after it is cycled
     cycleCounter = cycleCounter + 1
     for keys, values in filters.items():
         log_date(f"Filter: {keys}")
         log_date(f"Query String : {values.getString()}")
-        filters[keys].setResult(dictionaryCheck())
+        try:
+            # the line below can be uncommented when we are ready to query jira
+            # filters[keys].setResult(jiraTicketsFromJQL(values.getString()))
+            # the line below is a test function that will place a fake result in the result section of the filters dictionary for this key
+            filters[keys].setResult(dictionaryCheck())
+        except Exception as error:
+            # TODO
+            # need a way for us to check the connection and if it is bad then try to connect again.
+            # there are a number of different libs but we are using this one: https://pypi.org/project/jira/
         log_date(f"Results : {values.getResult()}")
         log_date("########################################### NEW QUERY")
 
@@ -186,6 +235,7 @@ while(True):
         # TODO
         # do something because they are in fact different
         if(ufo == True):
+            # NOTE BEFORE WORKING: I am not sure that I like this structure -- looking for thoughts on it.
             if (str(fileFilters["UFO TOP"]) == str(filters["UFO TOP"])):
                 log_date("The ufo top filters have not changed and I wont do anything.")
             else:
@@ -202,13 +252,16 @@ while(True):
                 if(str(filters["UFO BOTTOM 3PM"]) == str(fileFilters["UFO BOTTOM 3PM"])):
                     log_date("The ufo bottom filters have not changed and I wont do anything.")
                 else:
-                    log_date("The ufo bottom 3pm filters have changed and I will set the bottom color base on this filter having anything in it.")
+                    log_date("The ufo bottom 3pm filters have changed and I will set the bottom color based on this filter having anything in it.")
         else:
             log_date("The ufo section is turned off and we will not update the ufo's.")
     # write the final decoded object to the file for us in next cycle:
     writeToTicketFile(codecs.encode(pickle.dumps(filters), "base64").decode())
     # print cycle number
     log_date(f"Query cycle count is:  {cycleCounter}")
+    # TODO
+    # Need something that pulls an int from the config and says to check the config every x cycles (tbd later) this will allow for us to update the config with out restarting the tool
+
     # sleep function to add waiting to it
     log_date("Waiting..... 30 Seconds")
     time.sleep(5)
